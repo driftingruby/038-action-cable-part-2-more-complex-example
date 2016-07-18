@@ -1,4 +1,8 @@
 class VisitorsController < ApplicationController
-  def index
+  def chat
+    @messages = Message.all
+  end
+
+  def vote
   end
 end
